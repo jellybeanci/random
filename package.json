@@ -1,0 +1,29 @@
+{
+  "name": "@jellybeanci/random",
+  "version": "0.1.1",
+  "description": "Extended random number library.",
+  "main": "index.js",
+  "scripts": {
+    "build": "date +\"%T\" && echo \"Cleaning...\" && rm -rf ./js && echo \"Compiling...\" && tsc && echo \"Done!\" && date +\"%T\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellybeanci/random.git"
+  },
+  "keywords": [
+    "extended",
+    "random",
+    "number"
+  ],
+  "homepage": "https://github.com/jellybeanci/random#readme",
+  "author": "GokselKUCUKSAHIN <gokselkucuksahin@gmail.com> (https://github.com/GokselKUCUKSAHIN)",
+  "bugs": {
+    "url": "https://github.com/jellybeanci/random/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@jellybeanci/int": "^0.1.0"
+  },
+  "types": "./index.d.ts"
+}
