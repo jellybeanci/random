@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@jellybeanci/int": "^0.1.0"
+    "@jellybeanci/int": "^0.1.1"
   },
   "types": "./index.d.ts"
 }

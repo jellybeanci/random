@@ -104,5 +104,9 @@ dist
 .tern-port
 
 js/
+index.js
+index.d.ts
 
 test/
+
+package-lock.json
